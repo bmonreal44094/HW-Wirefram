@@ -5,57 +5,70 @@ html {
 }
 
 body {
-		
 		width: 	960px;
 }
 
 header {
-		padding: 40px 40px 40px 40px;
-		margin: 40px 40px 40px 40px;
-		border: 	25px solid #777;
+		padding: 40px;
+		margin: 10px;
 		background: #ebebeb;
-
+		text-align: center;
 }
 
 nav {
-		padding: 40px 40px 40px 40px;
-		margin: 40px 40px 40px 40px;
-		border: 	25px solid #777;
+		padding: 40px;
+		margin: 10px;
 		background: #ebebeb;
+		text-align: center;
 }
 
 footer {
-		padding: 40px 40px 40px 40px;
+		padding: 40px;
+		margin: 20px 10px;
 		background: #ebebeb;
+		text-align: center;
 }
 
 section {
 		width: 	495px;
-		padding: 40px 40px 40px 40px;
+		padding: 50px;
+		margin: 20px 10px;
 		background: #ebebeb;
+		text-align: center;
 }
 
 aside {
-		padding: 40px 40px 40px 40px;
-		float: 	right;
+		width: 445;
+		padding: 40px;
+		margin: 10px;
+		float: right;
 		background: #ebebeb;
+		text-align: center;
 }
 
 article {
-		padding: 40px 40px 40px 40px;
-		background: #ebebeb;
+		padding: 30px;
+		margin: 10px;
+		background: #777;
+		color: #ebebeb;
 }
 
-.clear {
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    overflow: auto;
 }
 
 h1 {
-		padding: 40px 40px 40px 40px;
+		padding: 20px;
+		margin: 10px;
 		background: #ebebeb;
+		color: #777;
 }
 
 p {
-		padding: 40px 40px 40px 40px;
+		padding: 20px;
+		margin: 10px;
 		background: #ebebeb;
+		color: #777;
 }
